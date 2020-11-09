@@ -48,9 +48,44 @@ alert(`Привет, ${user}!`);*/
 console.log(4 + " - object");
 console.log(4 + +"5");*/
 
-let incr = 10,
+/*let incr = 10,
     decr = 10;
 incr++;
 decr--;
 console.log(incr);
-console.log(decr);
+console.log(decr);*/
+
+/*let incr = 10,
+    decr = 10;
+//console.log(incr++);
+//console.log(decr--);
+console.log(++incr);
+console.log(--decr);*/
+
+//console.log(5%2);
+
+//console.log(2*4 == 8); //true
+
+//console.log(2*4 == '8'); //true
+
+//console.log(2*4 === 8); //true
+
+//console.log(2*4 === '8'); //false
+
+/*const isChecked = true,
+    isClose = true;
+console.log(isChecked && isClose);*/
+
+/*const isChecked = true,
+    isClose = false;
+console.log(isChecked || isClose);*/
+
+/*const isChecked = false,
+    isClose = false;
+console.log(isChecked || !isClose);*/
+
+//console.log(2 + 2 * 2 === 8); //false
+//console.log(2 + 2 * 2 != 8); //true
+
+
+console.log(2 + 2 * 2 !== '8');//true
