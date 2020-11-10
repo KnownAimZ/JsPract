@@ -8,5 +8,12 @@ let personalMoviesDB = {
     privat: false
 };
 
-console.log(personalMoviesDB);
+let filmName1 = prompt("Один из последних просмотренных фильмов?","");
+let filmRank1 = +(prompt("На сколько его оцените?",""));
+let filmName2 = prompt("Один из последних просмотренных фильмов?","");
+let filmRank2 = +(prompt("На сколько его оцените?",""));
 
+personalMoviesDB.movies[`${filmName1}`]=filmRank1;
+personalMoviesDB.movies[`${filmName2}`]=filmRank2;
+
+console.log(personalMoviesDB);
