@@ -94,7 +94,7 @@ const products = str.split(", ");
 products.sort();
 console.log(products.join('; '));*/
 
-const arr2 = [15, 25, 123, 6, 68, 10];
+/*const arr2 = [15, 25, 123, 6, 68, 10];
 
 arr2.sort();
 console.log(arr2);
@@ -104,4 +104,6 @@ function compareNum(a, b) {
 }
 
 arr2.sort(compareNum);
-console.log(arr2);
+console.log(arr2);*/
+
+
